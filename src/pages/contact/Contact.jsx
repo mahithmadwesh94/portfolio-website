@@ -40,11 +40,13 @@ function Contact() {
                         </div>
                     </Col>
                 </Row>
+
+            </Container>
+            <Container fluid>
                 <Row>
                     <Footer />
                 </Row>
             </Container>
-
 
         </div>
     )

@@ -33,6 +33,9 @@ function About() {
                     <WhatIOffer />
                 </Row>
 
+
+            </Container>
+            <Container fluid>
                 <Row>
                     <Footer />
                 </Row>

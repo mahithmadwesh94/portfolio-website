@@ -110,12 +110,14 @@ function Portfolio() {
                     </Col>
                 </Row>
 
+
+
+
+            </Container>
+            <Container fluid>
                 <Row>
                     <Footer />
-
                 </Row>
-
-
             </Container>
         </>
     )
