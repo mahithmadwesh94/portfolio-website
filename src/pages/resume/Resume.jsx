@@ -303,6 +303,9 @@ function Resume() {
 
                         </ul>
                     </Row>
+                    <Row>
+                        <Footer />
+                    </Row>
                 </Container>
 
             </div>

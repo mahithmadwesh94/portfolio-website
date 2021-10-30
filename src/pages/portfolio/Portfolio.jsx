@@ -2,6 +2,7 @@ import "./portfolio.css";
 import { ReactComponent as Netlify } from "../../assets/icons/netlify.svg"
 import { ReactComponent as Git } from "../../assets/icons/github.svg"
 import { Col, Container, Row } from "react-bootstrap";
+import Footer from "../../components/footer/Footer";
 
 
 function Portfolio() {
@@ -109,6 +110,10 @@ function Portfolio() {
                     </Col>
                 </Row>
 
+                <Row>
+                    <Footer />
+
+                </Row>
 
 
             </Container>

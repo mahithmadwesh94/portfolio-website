@@ -33,6 +33,9 @@ function About() {
                     <WhatIOffer />
                 </Row>
 
+                <Row>
+                    <Footer />
+                </Row>
             </Container>
 
 

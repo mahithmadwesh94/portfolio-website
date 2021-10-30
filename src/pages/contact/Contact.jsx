@@ -3,7 +3,7 @@ import "./contact.css";
 import RoomIcon from '@material-ui/icons/Room';
 import MailIcon from '@material-ui/icons/Mail';
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import Footer from "../../components/footer/Footer";
 
 function Contact() {
     return (
@@ -39,6 +39,9 @@ function Contact() {
                             +91-8867993042
                         </div>
                     </Col>
+                </Row>
+                <Row>
+                    <Footer />
                 </Row>
             </Container>
 

@@ -5,7 +5,6 @@ import Portfolio from './pages/portfolio/Portfolio';
 import Resume from './pages/resume/Resume';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from './pages/contact/Contact';
-import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        <Footer />
       </Router>
 
     </>
