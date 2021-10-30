@@ -5,7 +5,7 @@ function Footer() {
         <div className="footerContainer ps-4 pe-4">
             <div className="footerLeft">
                 <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mahith-madwesh">LinkedIn</a>
-                <a rel="noreferrer" target="_blank" href="https://mahith-madwesh.medium.com/">Mediun</a>
+                <a rel="noreferrer" target="_blank" href="https://mahith-madwesh.medium.com/">Medium</a>
                 <a rel="noreferrer" target="_blank" href="https://github.com/mahithmadwesh94">Github</a>
 
             </div>

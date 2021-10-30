@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./header.css"
 
 function Header() {
@@ -8,15 +8,17 @@ function Header() {
         <Navbar expand="lg" variant="dark" sticky="top">
             <Container fluid className="navbarContainer pb-2 ps-2 pe-2">
                 <Navbar.Brand href="#home">
-                    <div className="navbarLeft">
-                        <span className="logo">
-                            M
-                        </span>
+                    <NavLink className=" ms-auto" to='/'>
+                        <div className="navbarLeft">
+                            <span className="logo">
+                                M
+                            </span>
 
-                        <span className="logoText">
-                            Mahith Madwesh
-                        </span>
-                    </div>
+                            <span className="logoText">
+                                Mahith Madwesh
+                            </span>
+                        </div>
+                    </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
