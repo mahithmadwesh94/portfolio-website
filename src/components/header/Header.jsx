@@ -5,7 +5,7 @@ import "./header.css"
 
 function Header() {
     return (
-        <Navbar expand="lg" variant="dark" sticky="top">
+        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container fluid className="navbarContainer pb-2 ps-2 pe-2">
                 <Navbar.Brand href="#home">
                     <NavLink className=" ms-auto" to='/'>
