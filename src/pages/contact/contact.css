@@ -1,0 +1,31 @@
+.contactContainer{
+      height: calc(100vh-80px);
+}
+
+.primaryDetails{
+      color: white;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+}
+
+.primaryDetailsIcon{
+      color: #0d6efd;
+      margin-right: 10px;
+      font-size: 40px !important;
+}
+
+.primaryDetailsText{
+      font-size: small;
+      color: whitesmoke;
+
+}
+
+.inputField{
+     
+      border: 1px solid white;
+      color:white;
+      margin: 10px;
+      padding: 1px;
+}

@@ -1,0 +1,20 @@
+.boxTemplate{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+}
+
+.boxTemplateIcon{
+    font-size: 80px !important;
+    margin-bottom: -60px;
+    color: #3495eb;
+}
+
+.boxTemplate >p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}

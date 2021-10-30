@@ -1,0 +1,104 @@
+.portfolioContainer{
+    border-radius: 5px;
+    border: 4px solid gray;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    padding: 2px;
+}
+
+.portfolioContainer:hover .portolfolioPopup {
+    
+  height: 30%;
+}
+
+
+
+.portfolioImg{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    display: block;
+  
+    
+}
+
+.portfolioContainer >h4{
+    padding-left: 10px;
+}
+
+.portolfolioPopup{
+    
+    position: absolute;
+     bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  padding-top: 5px;
+    /* padding-left: 10px; */
+}
+
+.siteLinksWrapper{
+display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.portolfolioPopup span {
+    color: gray;
+}
+
+.siteLinkWrapper:hover span {
+    color: white;
+    cursor: pointer;
+}
+
+.siteLinkWrapper:hover path {
+   color: #25C7B7;
+    fill: currentColor;
+     margin-right: 10px;
+}
+
+.siteCodeWrapper:hover span{
+    color: white;
+    cursor: pointer;
+}
+
+.siteCodeWrapper:hover path {
+   /* color: #161614; */
+   color: white;
+    fill: currentColor;
+}
+
+.siteLink{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+   
+    cursor: pointer;
+   
+}
+
+/* .siteLink:hover > path{
+   color: #25C7B7;
+    fill: currentColor;
+} */
+
+.siteCode{
+     width: 40px;
+    height: 40px;
+    font-size: 40px;
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+/* .siteCode:hover > g {
+   color: #161614;
+   color: white;
+    fill: currentColor;
+} */

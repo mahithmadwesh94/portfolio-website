@@ -1,0 +1,111 @@
+.resumeContainer{
+   
+    height: calc(100vh-80px);
+   
+}
+
+.resumeEducation{
+    margin: 20px;
+   
+}
+
+
+.resumeHeader{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    color:white;
+    border-bottom: 0.5px solid gray;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+}
+
+.resumeHeader > span {
+     font-size: 20px;
+     color: white;
+     opacity: 0.8;
+}
+
+.resumeYear{
+    color: white;
+    background: #343638 !important;
+    border: 2px solid #0d6efd;
+    width: 140px;
+    outline: 10x;
+    border-radius: 20px;
+    outline: none !important;
+    margin-top: 10px;
+    pointer-events: none;
+    
+}
+
+.headerContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.headerContainer > span{
+    font-size: 15px;
+    color: white;
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.resumeBodyContainer{
+    color: white;
+    padding-left: 20px;
+}
+
+.resumeBodyWrapper > h4{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.resumeBodyWrapper{
+    border-left: 0.5px solid gray;
+    padding-left: 10px;
+}
+
+.resumeBodyWrapper > hr {
+    width: 90%;
+}
+
+
+.resumeEducationListing > li {
+    color: white;
+    opacity: 0.8;
+}
+
+.resumeCodingSkillContainer{
+    margin-bottom: 20px;
+}
+
+.resumeCodingSkill{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+
+.skillWidthContainer{
+    width: 100%;
+    height: 10px;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+}
+
+.codingPercent{
+    color: gray;
+}
+
+.skillWidth{
+    background-color: #0d6efd;
+    height: 100%;
+    border-radius: 15px;
+}
+

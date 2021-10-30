@@ -1,0 +1,22 @@
+.whatIDoTemplate{
+    display: flex;
+    padding: 20px 20px 20px 0;
+}
+
+.whatIDoTemplateIcon{
+    color:#3495eb;
+    /* width: 50px !important;
+    height: 50px !important; */
+    margin-right: 10px;
+    font-size: 40px !important;
+}
+
+.whatIDoTemplateTitle{
+    font-weight: 700;
+    color: white;
+}
+
+.whatIDoTemplateText{
+    color: rgba(255,255,255,0.8);
+    font-size: 18px;
+}
