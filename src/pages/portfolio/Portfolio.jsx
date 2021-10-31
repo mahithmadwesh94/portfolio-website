@@ -5,6 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Footer from "../../components/footer/Footer";
 import mtravel from "../../assets/images/mTravelAppPin.png"
 import ecommerSite from "../../assets/images/ecommerceSite.png"
+import BlogReactApp from "../../assets/images/BlogReactApp.png"
 
 
 function Portfolio() {
@@ -67,6 +68,25 @@ function Portfolio() {
                                     </div>
                                     <div className="siteCodeWrapper">
                                         <a href="https://github.com/mahithmadwesh94/ecommerce-frontend" target="_blank" rel="noreferrer"><Git className="siteCode" /> <span>Code</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+
+
+                    <Col sm={12} md={6} lg={4}>
+                        <div className="portfolioContainer">
+
+                            <img src={BlogReactApp} alt="" className="portfolioImg" />
+
+                            <div className="portolfolioPopup ">
+                                <div className="siteLinksWrapper ">
+                                    <div className="siteLinkWrapper">
+                                        <a href="https://vigorous-bhaskara-b1da6c.netlify.app/" target="_blank" rel="noreferrer"><Netlify className="siteLink" /> <span>Site</span></a>
+                                    </div>
+                                    <div className="siteCodeWrapper">
+                                        <a href="https://github.com/mahithmadwesh94/reactblog-frontend" target="_blank" rel="noreferrer"><Git className="siteCode" /> <span>Code</span></a>
                                     </div>
                                 </div>
                             </div>
