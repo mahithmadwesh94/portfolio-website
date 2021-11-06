@@ -12,7 +12,7 @@ function Resume() {
                 <div className="resumeHeader">
 
                     <div>Resume</div>
-                    <a href="https://drive.google.com/uc?export=download&id=1lsIErLT9k6R71m5QUo5Pja5Ewclquzrn" target="_blank" rel="noreferrer" style={{ color: 'white' }} download><Button className="aboutContact">Download</Button></a>
+                    <a href="https://drive.google.com/uc?export=download&id=1LC8WpUUozBQhKaz79BEnvZ2WD6U7jwrF" target="_blank" rel="noreferrer" style={{ color: 'white' }} download><Button className="aboutContact">Download</Button></a>
                     <span>3 Years Experience</span>
                 </div>
             </Container>
