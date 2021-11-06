@@ -11,14 +11,41 @@ import BlogReactApp from "../../assets/images/BlogReactApp.png"
 function Portfolio() {
     return (
         <>
-            <Container>
+            <Container className="portfolio">
                 <div className="resumeHeader">
 
                     <div>Portfolio</div>
 
                 </div>
                 <Row>
-                    <Col sm={12} md={6} lg={4}>
+                    <Col >
+                        <div className="portfolioContainer">
+                            <img src={ecommerSite} alt="" className="portfolioImg" />
+                            <div className="portolfolioPopup ">
+                                <div className="siteLinksWrapper ">
+                                    <div className="siteLinkWrapper">
+                                        <a href="https://pensive-khorana-c2d34d.netlify.app/" target="_blank" rel="noreferrer"><Netlify className="siteLink" /> <span>Site</span></a>
+                                    </div>
+                                    <div className="siteCodeWrapper">
+                                        <a href="https://github.com/mahithmadwesh94/ecommerce-frontend" target="_blank" rel="noreferrer"><Git className="siteCode" /> <span>Code</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div>
+                            <h2>Project Details</h2>
+                            <p><b>Title: </b> MERN Ecommerce Application</p>
+                            <p><b>Technologies Used: </b> React,Express,React,Node</p>
+                            <p><b>Description: </b> Complete End to End Web Application with JWT Authentication and Authorization.
+                                The application has Stripe Payment Included with Redux for state management</p>
+                        </div>
+                    </Col>
+                </Row>
+                <hr />
+                <Row>
+                    <Col >
                         <div className="portfolioContainer">
 
                             <img src={mtravel} alt="" className="portfolioImg" />
@@ -35,9 +62,20 @@ function Portfolio() {
                             </div>
                         </div>
                     </Col>
+                    <Col>
+                        <div>
+                            <h2>Project Details</h2>
+                            <p><b>Title: </b> MERN Travel Application</p>
+                            <p><b>Technologies Used: </b> React,Express,React,Node</p>
+                            <p><b>Description: </b> Complete End to End Web Application Mapbox Integration.
+                                The application has Mapbox library which allows you to see your pinned location with rating and description as well as other's pins.</p>
+                        </div>
+                    </Col>
+                </Row>
+                <hr />
 
-
-                    <Col sm={12} md={6} lg={4}>
+                <Row>
+                    <Col >
                         <div className="portfolioContainer">
 
                             <img src="/assets/images/portfolio1.png" alt="" className="portfolioImg" />
@@ -54,28 +92,19 @@ function Portfolio() {
                             </div>
                         </div>
                     </Col>
-
-
-                    <Col sm={12} md={6} lg={4}>
-                        <div className="portfolioContainer">
-
-                            <img src={ecommerSite} alt="" className="portfolioImg" />
-
-                            <div className="portolfolioPopup ">
-                                <div className="siteLinksWrapper ">
-                                    <div className="siteLinkWrapper">
-                                        <a href="https://pensive-khorana-c2d34d.netlify.app/" target="_blank" rel="noreferrer"><Netlify className="siteLink" /> <span>Site</span></a>
-                                    </div>
-                                    <div className="siteCodeWrapper">
-                                        <a href="https://github.com/mahithmadwesh94/ecommerce-frontend" target="_blank" rel="noreferrer"><Git className="siteCode" /> <span>Code</span></a>
-                                    </div>
-                                </div>
-                            </div>
+                    <Col>
+                        <div>
+                            <h2>Project Details</h2>
+                            <p><b>Title: </b> Business Management UI</p>
+                            <p><b>Technologies Used: </b> React</p>
+                            <p><b>Description: </b> Responsive React UI used in conjuction in with framer motion and Undraw to create a beautiful design</p>
                         </div>
                     </Col>
+                </Row>
+                <hr />
 
-
-                    <Col sm={12} md={6} lg={4}>
+                <Row>
+                    <Col >
                         <div className="portfolioContainer">
 
                             <img src={BlogReactApp} alt="" className="portfolioImg" />
@@ -92,11 +121,19 @@ function Portfolio() {
                             </div>
                         </div>
                     </Col>
+                    <Col>
+                        <div>
+                            <h2>Project Details</h2>
+                            <p><b>Title: </b> MERN Blog Application</p>
+                            <p><b>Technologies Used: </b>React,Express,React,Node</p>
+                            <p><b>Description: </b> Complete End to End Blog Web Application.
+                                The application allows you to search posts by user, Read,edit create posts.
+                                Built with User login and Registration using Node & MongoDB.
+                                You can create posts with picture, update user profile. Delete your posts only.</p>
+                        </div>
+                    </Col>
                 </Row>
-
-
-
-
+                <hr />
             </Container>
             <Container fluid>
                 <Row>

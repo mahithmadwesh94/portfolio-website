@@ -1,3 +1,15 @@
+.portfolio{
+    color:white;
+    font-size: 20px;
+}
+
+b{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+
+
 .portfolioContainer{
     border-radius: 5px;
     border: 4px solid gray;
