@@ -285,7 +285,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2021 - Present</Button>
-                                    <h5>Salesforce Platform Developer II certification</h5>
+                                    <h5>Salesforce Javscript Developer I certification</h5>
 
                                 </div>
                             </div>
