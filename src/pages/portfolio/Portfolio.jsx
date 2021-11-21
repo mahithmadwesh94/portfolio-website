@@ -6,6 +6,7 @@ import Footer from "../../components/footer/Footer";
 import mtravel from "../../assets/images/mTravelAppPin.png"
 import ecommerSite from "../../assets/images/ecommerceSite.png"
 import BlogReactApp from "../../assets/images/BlogReactApp.png"
+import chatApplication from "../../assets/images/chatApplication.png"
 
 
 function Portfolio() {
@@ -35,7 +36,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <div>
-                            <h2>Project Details</h2>
+                            <h2>Project Name</h2>
                             <p><b>Title: </b> MERN Ecommerce Application</p>
                             <p><b>Technologies Used: </b> React,Express,React,Node</p>
                             <p><b>Description: </b> Complete End to End Web Application with JWT Authentication and Authorization.
@@ -64,7 +65,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <div>
-                            <h2>Project Details</h2>
+                            <h2>Project Name</h2>
                             <p><b>Title: </b> MERN Travel Application</p>
                             <p><b>Technologies Used: </b> React,Express,React,Node</p>
                             <p><b>Description: </b> Complete End to End Web Application Mapbox Integration.
@@ -94,7 +95,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <div>
-                            <h2>Project Details</h2>
+                            <h2>Project Name</h2>
                             <p><b>Title: </b> Business Management UI</p>
                             <p><b>Technologies Used: </b> React</p>
                             <p><b>Description: </b> Responsive React UI used in conjuction in with framer motion and Undraw to create a beautiful design</p>
@@ -123,13 +124,43 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <div>
-                            <h2>Project Details</h2>
+                            <h2>Project Name</h2>
                             <p><b>Title: </b> MERN Blog Application</p>
                             <p><b>Technologies Used: </b>React,Express,React,Node</p>
                             <p><b>Description: </b> Complete End to End Blog Web Application.
                                 The application allows you to search posts by user, Read,edit create posts.
                                 Built with User login and Registration using Node & MongoDB.
                                 You can create posts with picture, update user profile. Delete your posts only.</p>
+                        </div>
+                    </Col>
+                </Row>
+                <hr />
+
+                <Row>
+                    <Col >
+                        <div className="portfolioContainer">
+
+                            <img src={chatApplication} alt="" className="portfolioImg" />
+
+                            <div className="portolfolioPopup ">
+                                <div className="siteLinksWrapper ">
+                                    <div className="siteLinkWrapper">
+                                        <a href="https://vigorous-bhaskara-b1da6c.netlify.app/" target="_blank" rel="noreferrer"><Netlify className="siteLink" /> <span>Site</span></a>
+                                    </div>
+                                    <div className="siteCodeWrapper">
+                                        <a href="https://github.com/mahithmadwesh94/chat-frontend" target="_blank" rel="noreferrer"><Git className="siteCode" /> <span>Code</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div>
+                            <h2>Project Name</h2>
+                            <p><b>Title: </b> MERN Chat Application</p>
+                            <p><b>Technologies Used: </b> React,Express,React,Node,Socket.io</p>
+                            <p><b>Description: </b> Complete End to End chat Application with socket.io.
+                                The application has socket.io Included with React and Node for real-time communication</p>
                         </div>
                     </Col>
                 </Row>

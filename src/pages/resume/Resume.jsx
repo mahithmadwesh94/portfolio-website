@@ -204,7 +204,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Admin Ceritication</h5>
+                                    <h5>Salesforce Admin certification</h5>
 
                                 </div>
                             </div>
@@ -215,19 +215,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Platform App Builder Ceritication</h5>
-
-                                </div>
-                            </div>
-                        </Col>
-
-
-                        <Col sm={12} md={6} lg={6}>
-                            <div className="resumeEducation">
-
-                                <div className="resumeBodyContainer d-flex align-items-center">
-                                    <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Sales Cloud Ceritication</h5>
+                                    <h5>Salesforce Platform App Builder certification</h5>
 
                                 </div>
                             </div>
@@ -239,7 +227,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Service Cloud Ceritication</h5>
+                                    <h5>Salesforce Sales Cloud certification</h5>
 
                                 </div>
                             </div>
@@ -251,7 +239,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Advanced Admin Ceritication</h5>
+                                    <h5>Salesforce Service Cloud certification</h5>
 
                                 </div>
                             </div>
@@ -263,7 +251,19 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2019 - Present</Button>
-                                    <h5>Salesforce Communiy Cloud Ceritication</h5>
+                                    <h5>Salesforce Advanced Admin certification</h5>
+
+                                </div>
+                            </div>
+                        </Col>
+
+
+                        <Col sm={12} md={6} lg={6}>
+                            <div className="resumeEducation">
+
+                                <div className="resumeBodyContainer d-flex align-items-center">
+                                    <Button className="resumeYear me-4">2019 - Present</Button>
+                                    <h5>Salesforce Communiy Cloud certification</h5>
 
                                 </div>
                             </div>
@@ -274,7 +274,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2020 - Present</Button>
-                                    <h5>Salesforce Platform Developer I Ceritication</h5>
+                                    <h5>Salesforce Platform Developer I certification</h5>
 
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ function Resume() {
 
                                 <div className="resumeBodyContainer d-flex align-items-center">
                                     <Button className="resumeYear me-4">2021 - Present</Button>
-                                    <h5>Salesforce Platform Developer II Ceritication</h5>
+                                    <h5>Salesforce Platform Developer II certification</h5>
 
                                 </div>
                             </div>
