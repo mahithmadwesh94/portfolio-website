@@ -1,48 +1,40 @@
-.portfolio{
-    color:white;
-    font-size: 20px;
+.portfolio {
+  color: white;
+  font-size: 20px;
 }
 
-b{
-    color: lightgray;
-    text-decoration: underline;
+b {
+  color: lightgray;
+  text-decoration: underline;
 }
 
-
-
-.portfolioContainer{
-    border-radius: 5px;
-    border: 4px solid gray;
-    width: 300px;
-    margin: 10px;
-    position: relative;
-    padding: 2px;
+.portfolioContainer {
+  border-radius: 5px;
+  border: 4px solid gray;
+  width: 500px;
+  margin: 10px;
+  position: relative;
+  padding: 2px;
 }
 
 .portfolioContainer:hover .portolfolioPopup {
-    
   height: 30%;
 }
 
-
-
-.portfolioImg{
-    object-fit: contain;
-    width: 100%;
-    height: auto;
-    display: block;
-  
-    
+.portfolioImg {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.portfolioContainer >h4{
-    padding-left: 10px;
+.portfolioContainer > h4 {
+  padding-left: 10px;
 }
 
-.portolfolioPopup{
-    
-    position: absolute;
-     bottom: 0;
+.portolfolioPopup {
+  position: absolute;
+  bottom: 0;
   left: 0;
   right: 0;
   overflow: hidden;
@@ -50,49 +42,47 @@ b{
   height: 0;
   transition: 0.5s ease;
   padding-top: 5px;
-    /* padding-left: 10px; */
+  /* padding-left: 10px; */
 }
 
-.siteLinksWrapper{
-display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.siteLinksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
 
 .portolfolioPopup span {
-    color: gray;
+  color: gray;
 }
 
 .siteLinkWrapper:hover span {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 .siteLinkWrapper:hover path {
-   color: #25C7B7;
-    fill: currentColor;
-     margin-right: 10px;
+  color: #25c7b7;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
-.siteCodeWrapper:hover span{
-    color: white;
-    cursor: pointer;
+.siteCodeWrapper:hover span {
+  color: white;
+  cursor: pointer;
 }
 
 .siteCodeWrapper:hover path {
-   /* color: #161614; */
-   color: white;
-    fill: currentColor;
+  /* color: #161614; */
+  color: white;
+  fill: currentColor;
 }
 
-.siteLink{
-    width: 40px;
-    height: 40px;
-    padding: 3px;
-   
-    cursor: pointer;
-   
+.siteLink {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+
+  cursor: pointer;
 }
 
 /* .siteLink:hover > path{
@@ -100,13 +90,13 @@ display: flex;
     fill: currentColor;
 } */
 
-.siteCode{
-     width: 40px;
-    height: 40px;
-    font-size: 40px;
-    padding: 3px;
-    margin: 3px;
-    cursor: pointer;
+.siteCode {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 3px;
+  margin: 3px;
+  cursor: pointer;
 }
 
 /* .siteCode:hover > g {

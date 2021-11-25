@@ -10,7 +10,7 @@ function Header() {
                 <Navbar.Brand href="#home">
                     <NavLink className=" ms-auto" to='/'>
                         <div className="navbarLeft">
-                            <span className="logo">
+                            <span className="logo ms-4">
                                 M
                             </span>
 
