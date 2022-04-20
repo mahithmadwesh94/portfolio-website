@@ -5,31 +5,36 @@
 }
 
 .aboutImageContainer{
-    border-radius: 50%;
+    /* border-radius: 50%;
     width: 400px;
     height: 400px;
-    background-color: darkgray;
+    background-color: darkgray;*/
     text-align: center;
-    display: grid;
-    place-items: center;
-    margin: 10px 0 10px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding:0 20px;
 
 }
 
 .aboutImage{
     border-radius: 50%;
-    width: 90%;
+    background-color: darkgray;
+    padding: 15px;
+    width: 350px;
     height: 350px;
+    object-fit: cover;
 }
 
 .aboutTextContainer{
     display: grid;
       padding: 50px 60px 0 0;
-      color: rgba(255,255,255,0.8);
+      /* color: rgba(255,255,255,0.8); */
 }
 
 .aboutName{
-    color: white;
+    /* color: white; */
     font-size: 60px;
     font-weight: 500;
 }
@@ -39,7 +44,7 @@
 }
 
 .aboutContact{
-    color: white;
+    /* color: white; */
     background: #343638 !important;
     width: 120px;
     border-radius: 20px;

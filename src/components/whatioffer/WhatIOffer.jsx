@@ -6,7 +6,7 @@ import CheckIcon from '@material-ui/icons/Check';
 function WhatIOffer() {
     return (
         <Container>
-            <Row>
+            {/* <Row>
                 <Title title="What I Offer" />
                 <Col>
                     <div class="boxTemplate">
@@ -32,7 +32,7 @@ function WhatIOffer() {
                         <p>Salesforce Development</p>
                     </div>
                 </Col>
-            </Row>
+            </Row> */}
         </Container>
     )
 }

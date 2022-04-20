@@ -1,7 +1,7 @@
 .mainTitle{
     font-size: 20px;
     font-weight: 700;
-    color: white;
+    /* color: white; */
     padding-bottom: 10px;
   
 }
@@ -9,7 +9,7 @@
 .progress#id{
     margin-top: 8px;
    height: 2px !important;
-   background-color: gray !important;
+   /* background-color: grey !important; */
     width: 100px !important;
-    height: 0.1rem !important;
+    height: 0.2rem !important;
 }

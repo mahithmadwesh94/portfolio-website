@@ -2,10 +2,12 @@ import "./footer.css";
 import { ReactComponent as Ln } from "../../assets/icons/linkedin.svg"
 import { ReactComponent as Medium } from "../../assets/icons/monogram-medium.svg"
 import { ReactComponent as Git } from "../../assets/icons/github.svg"
+import { Container, Navbar } from "react-bootstrap";
 
-function Footer() {
+function Footer({color,backgroundColor}) {
     return (
-        <div className="footerContainer ps-4 pe-4">
+        <Navbar expand="lg" style={{backgroundColor:backgroundColor,color:color}}>
+        <Container className="footerContainer ps-4 pe-4">
             <div className="footerLeft">
                 <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mahith-madwesh">
                     <Ln style={{
@@ -28,10 +30,11 @@ function Footer() {
             </div>
 
             <div className="footerRight">
-                &copy; Mahith's Portfolio
+                &copy; Mahith Madwesh
             </div>
 
-        </div>
+        </Container>
+        </Navbar>
     )
 }
 

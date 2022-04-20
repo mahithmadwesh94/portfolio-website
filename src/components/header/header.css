@@ -3,6 +3,7 @@
     height: 80px;
     /* width:100vw !important; */
     justify-content: space-evenly;
+    opacity: 1;
 }
 
 a{
@@ -31,7 +32,8 @@ a{
 }
 
 .logoText{
-    color: white;
+    /* color: white; */
+    color: black;
     font-weight: 700;
     font-size: 25px;
     /* letter-spacing: 1px; */
@@ -39,7 +41,7 @@ a{
 
 .navLink{
     padding: 0 25px;
-    color: gray;
+    /* color: black !important; */
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
